@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Muli", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+/* SEARCH BAR */
+.searchbar {
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+  padding-left: 10px;
+  background-color: #5c0a71;
+  font-size: 0;
+  overflow: hidden;
+}
+
+.searchbar input {
+  padding: 5px;
+  margin-top: 6px;
+  font-size: 15px;
+  border: none;
+}
+
+.button {
+  float: left;
+  padding: 6px 10px;
+  background: #5c0a71;
+  font-size: 17px;
+  border: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+/* NAV BAR */
+nav ul {
+  margin: 0;
+  padding: 0;
+  background-color: #5c0a71;
+  font-size: 15px;
+}
+
+nav li {
+  font-size: 1rem;
+  display: inline-block;
+}
+
+nav li a {
+  color: white;
+  padding: 15px;
+  display: inline-block;
+  text-align: center;
+}
+
+nav li a:hover {
+  background-color: #a651bb;
+}
+
+/*nav li a .active {
+    background-color: white;
+    font-color: black:
+  }*/
+
+.profilepic {
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+img {
+  height: 500px;
+  width: 100%;
+}
+
+.top-right {
+  padding: 5px;
+  position: absolute;
+  bottom: 500px;
+  right: 0px;
+  color: white;
+}
+
+.container a {
+  color: white;
+}
+
+.container a:hover {
+  color: #a651bb;
+}
+
+.headlines {
+  padding: 10px;
+}
+
+.headlines a {
+  color: purple;
+}
+
+.headlines a:hover {
+  color: #a651bb;
+}
+
+.twitter,
+.flickr {
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+
+button {
+  display: inline-block;
+  border-radius: 4px;
+  background: purple;
+  color: white;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
