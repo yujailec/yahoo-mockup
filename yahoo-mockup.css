@@ -45,6 +45,7 @@ nav ul {
   padding: 0;
   background-color: #5c0a71;
   font-size: 15px;
+  text-align: center;
 }
 
 nav li {
@@ -56,24 +57,18 @@ nav li a {
   color: white;
   padding: 15px;
   display: inline-block;
-  text-align: center;
 }
 
 nav li a:hover {
   background-color: #a651bb;
 }
 
-/*nav li a .active {
-    background-color: white;
-    font-color: black:
-  }*/
-
 .profilepic {
   height: 50px;
   width: 50px;
   padding: 5px;
   border-radius: 50%;
-  vertical-align: middle;
+  float: right; 
 }
 
 img {
@@ -97,8 +92,36 @@ img {
   color: #a651bb;
 }
 
+.top-left {
+  padding: 5px;
+  position: absolute;
+  top: 775px;
+  left: 20px;
+  color: white;
+}
+
+.twitter {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.flickr {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 25px;
+  text-align: center;
+}
+
+.navbar {
+  text-align: center;
+}
+
 .headlines {
-  padding: 10px;
+  margin: 10px;
 }
 
 .headlines a {
